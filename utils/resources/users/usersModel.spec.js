@@ -16,7 +16,7 @@ describe('Router', () =>{
             const data = {
                 username:'Henry',
                 password:'pass',
-                phone:'5555555555'
+//                 phone:'5555555555'
             }
   
             await Users.register(data)
